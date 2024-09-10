@@ -67,9 +67,20 @@
     display: flex;
     background-color: #F7F5F4;
     padding: 10%;
+    width: 80%;
+    margin: auto;
 }
 
-.values-main img{
+/* .values-main img{
     width: 100%
+} */
+
+
+.image-values{
+    width: 50%;
 }
 
+.text-values{
+    width: 50%;
+
+}
