@@ -9,11 +9,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    /* position: fixed;
     top: 0%;
     width: 100%;
     z-index: 9999;
-    background-color: #fff;
+    background-color: #fff; */
 }
 
 #nav-items {
@@ -54,9 +54,6 @@
     font-size: 14pt;
 }
 
-/* .three-images-main {
-    width: 100%;
-} */
 
 .three-images{
     display: flex;
