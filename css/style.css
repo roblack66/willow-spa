@@ -73,9 +73,9 @@
     object-fit: cover;
 }
 
-.image{
-    flex: 2;
-}
+/* .image{
+    flex: ;
+} */
 
 .values-main{
     display: flex;
@@ -169,6 +169,17 @@ hr{
     margin: 40px auto;
 }
 
+.closing-info-main{
+    height: 70vh;
+}
+
 .closing-info{
     display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+
