@@ -9,11 +9,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed;
+    position: fixed;
     top: 0%;
     width: 100%;
     z-index: 9999;
-    background-color: #fff; */
+    background-color: #fff;
 }
 
 #nav-items {
@@ -34,7 +34,14 @@
 
 .hero-img{
     width: 100%;
-    background-size: cover;
+    background-size: contain;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-img img{
+    width: 100%;
 }
 
 .hero-sub {
@@ -160,4 +167,8 @@ hr{
     border-top: 2px solid #EF9A3D;
     width: 100px;
     margin: 40px auto;
+}
+
+.closing-info{
+    display: flex;
 }
