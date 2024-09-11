@@ -65,18 +65,26 @@
 }
 
 .image{
-    flex: 1;
+    flex: 2;
 }
 
 .values-main{
     display: flex;
     padding: 10%;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    background-color:gray;
+    background-color: #F7F5F4;
+    margin-bottom: 6rem;
+
 }
 
 .image-values img{
+    width: 100%;
+}
+
+.values-main{
+    display: flex;
+    justify-content:center
     width: 100%;
 }
 
@@ -87,11 +95,15 @@
 
 .image-values{
     width: 50%;
+    margin-left:;
+
    
 }
 
 .text-values{
     width: 50%;
+    text-align: left;
+    
 
 }
 
@@ -99,7 +111,16 @@
 display: flex;
 justify-content: center;
 height: 100vh;
-background-color: darkslategrey
+background-color: #333C4E;
+padding-top: 4rem;
+}
+
+.newsletter-main h2{
+color: white;
+}
+
+.newsletter-main h1{
+    color: white;
 }
 
 
@@ -115,6 +136,7 @@ input{
     margin: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-top: 3rem;
 }
 
 .submit-container{
@@ -133,7 +155,7 @@ input[type="submit"]{
 
 hr{
     border: none;
-    border-top: 2px solid brown;
+    border-top: 2px solid #EF9A3D;
     width: 100px;
-    margin: 20px auto;
+    margin: 40px auto;
 }
