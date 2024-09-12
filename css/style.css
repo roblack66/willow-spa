@@ -62,7 +62,7 @@
 
 .list-item a {
     text-decoration: none;
-    color:#333C4E;
+    color: #333C4E;
 }
 
 .hero-img {
@@ -178,7 +178,7 @@
 
 .newsletter-main h2 {
     color: white;
-    
+
 }
 
 .newsletter-main h1 {
@@ -222,7 +222,7 @@ input[type="submit"] {
 .welcome-hr {
     border: none;
     border-top: 2px solid #EF9A3D;
-    width: 100px;
+    width: 200px;
     margin: 40px auto;
 }
 
@@ -233,6 +233,12 @@ input[type="submit"] {
     font-weight: 600;
     font-style: normal;
 }
+
+.closing-info-main p{
+    padding-top: 1rem;
+}
+
+
 
 .closing-info {
     display: flex;
@@ -254,10 +260,10 @@ input[type="submit"] {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-}
-
-.f-info p {
+    display: flex;
+    justify-content: space-between;
     padding-top: 2.3rem;
-    padding-left: 5%;
+    padding-left: 3%;
+    padding-right: 5%;
     color: #ccc;
 }
