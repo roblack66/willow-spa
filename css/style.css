@@ -361,6 +361,11 @@ input[type="submit"] {
     color: #ccc;
 }
 
+.f-info a{
+    color: white;
+    text-decoration: none;
+}
+
 /* Media Queries for Responsiveness */
 
 /* Tablets and smaller laptops */
