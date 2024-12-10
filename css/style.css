@@ -360,3 +360,149 @@ input[type="submit"] {
     padding-right: 5%;
     color: #ccc;
 }
+
+/* Media Queries for Responsiveness */
+
+/* Tablets and smaller laptops */
+@media screen and (max-width: 1024px) {
+  .nav-items {
+    gap: 20px;
+  }
+  
+  .three-images {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .values-main-sub {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .image-values img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text-values {
+    padding: 20px;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 768px) {
+  .top-bar {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .nav-main {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nav-image {
+    max-width: 200px;
+  }
+
+  .nav-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+  }
+
+  .hero-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-sub {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .three-images-main {
+    padding: 20px;
+  }
+
+  .image-1, .image-2, .image-3 {
+    width: 100%;
+  }
+
+  .image-1 img, .image-2 img, .image-3 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .newsletter-main form > div {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .newsletter-main input[type="text"] {
+    width: 90%;
+    margin: 5px auto;
+  }
+
+  .closing-info-main {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .closing-info {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .f-info {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+/* Small mobile devices */
+@media screen and (max-width: 480px) {
+  .hero-sub h1 {
+    font-size: 24px;
+  }
+
+  .hero-sub p {
+    font-size: 16px;
+  }
+
+  .text-overlay h2 {
+    font-size: 20px;
+  }
+
+  .values-heading h1 {
+    font-size: 24px;
+  }
+
+  .newsletter-sub h1 {
+    font-size: 20px;
+  }
+
+  .newsletter-sub h2 {
+    font-size: 18px;
+  }
+}
+
+/* Ensure images don't overflow their containers */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add smooth transitions for better user experience */
+.nav-items, .three-images, .values-main-sub {
+  transition: all 0.3s ease-in-out;
+}
